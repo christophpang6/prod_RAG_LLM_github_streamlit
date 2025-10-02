@@ -65,8 +65,8 @@ st.markdown("Creator: **Christopher Pang**  🔗 [LinkedIn](https://www.linkedin
 
 st.markdown(
     "This demo shows a Retrieval-Augmented Generation chatbot that pulls from X documents and uses embeddings + LLM to answer domain-specific questions.<br>"
-    "Ask questions about **space missions, landmarks, programming, science, or historical events.**<br>"
-    "If a question is asked that is not in the retrieval vector database, the chatbot will respond with: **\"I don't know.\"**",
+    "Ask questions about these topics: **Apollo 11 space mission, Eiffel Tower, Python programming, World War II, Penicillin**.<br>"
+    "If a question is asked that is not in the retrieval vector database, the chatbot will respond with: **\"I don't know.\"** instead of hallucinating/making something up.",
     unsafe_allow_html=True
 )
 
